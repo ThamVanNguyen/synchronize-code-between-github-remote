@@ -26,7 +26,7 @@ public class DockerTutorialApplication {
         logApplicationStartup(env);
     }
 
-    private static void testConflictCodeFromAnotherTeam() {
+    private static void testConflictCodeFromAnotherTeam(final String name) {
         log.inf("Conflict code from another team. Result in resolve conflict");
     }
     private static void logApplicationStartup(final Environment env) {
