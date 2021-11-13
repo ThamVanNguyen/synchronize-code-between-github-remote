@@ -27,7 +27,7 @@ public class DockerTutorialApplication {
     }
 
     private static void testConflictCodeFromAnotherTeam(final String name) {
-        log.inf("Conflict code from another team. Result in resolve conflict");
+        log.info("Conflict code from another team. Result in resolve conflict");
     }
     private static void logApplicationStartup(final Environment env) {
         String protocol = Optional.ofNullable(env.getProperty("server.ssl.key-store"))
