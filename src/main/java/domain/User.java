@@ -48,6 +48,9 @@ public class User
     @Column(length = 50)
     private String phone;
 
+    @Column(length = 50)
+    private String phone2;
+
     @Column(length = 10)
     @Enumerated(EnumType.STRING)
     private Gender gender;
